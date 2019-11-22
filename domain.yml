@@ -1,0 +1,82 @@
+intents:
+- whatIsMyCoverage
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- whatIsMyPremium
+- doYouLoveMe
+- areYouSingle
+- whyLibravos
+- whereDoesMoneyGo
+- howToMakeClaim
+- whatIsMyDeductible
+- curiosityAboutBot
+
+templates:
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_coverageResponse:
+  - text: You are covered for everything whether it be theft, loss, or damage!
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a Elias. I love helping people learn more about Libravos.
+  utter_premiumResponse:
+  - text: Your rate is 6$ a month. That's 50% lower than competitors!
+  utter_deductibleResponse:
+  - text: Your deductible is $75. That's 60% lower than competitors!
+  utter_iLoveYou:
+  - text: You are using the Libravos app so of course I love you.
+  utter_letUsTalkAfter:
+  - text: I can't answer that question right now. Subscribe to a Libravos policy and
+      then we'll talk (I'm getting butterflies in my stomatch just thinking about
+      you hitting the subscribe button)
+  utter_aboutLibravos:
+  - text: What is Libravos you ask? Don't get me started! :)  Libravos is aiming to
+      disrupt the phone insurance industry by providing transparent, dynamic, simple,
+      and low cost phone insurance. Visit https://libravos.com to learn more. Would
+      you like to subscribe to our email list for free updates?
+  utter_charityMoney:
+  - text: Don't worry. Libravos is for social good. In the event that you don't make
+      any claims, we donate a percentage of your premiums to a local charity!
+  utter_claimHelp:
+  - text: Libravos is not yet open to the public. If you'd like to hear about the
+      latest updates, however, make sure to head over to https://libravos.com!!
+  utter_emailListServeSignUpYes:
+  - text: Great. You will now be notified of Libravos updates. We will let you know
+      when Libravos Phone Insurance becomes avilable to the public.
+  utter_emailListServeSignUpNo:
+  - text: I understand. You only hurt my feelings a little bit. But I understand.
+  utter_botCapabilities:
+  - text: I can answer all your Libravos related questions. Ask my about your coverage,
+      premiums, deductible, and my relationship status!
+
+actions:
+- utter_cheer_up
+- utter_coverageResponse
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_premiumResponse
+- utter_iLoveYou
+- utter_letUsTalkAfter
+- utter_aboutLibravos
+- utter_charityMoney
+- utter_claimHelp
+- utter_deductibleResponse
+- utter_emailListServeSignUpYes
+- utter_emailListServeSignUpNo
+- utter_botCapabilities

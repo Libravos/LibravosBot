@@ -1,0 +1,60 @@
+2019-11-17 00:45:04,273 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 00:45:08,594 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 00:45:54,164 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/app.py", line 918, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/router.py", line 447, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+2019-11-17 00:48:15,190 [INFO ]  Server initialized for sanic.
+2019-11-17 00:48:15,192 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 00:48:18,711 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 00:48:20,363 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/server.py", line 860, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "uvloop/loop.pyx", line 1456, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1727, in create_server
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 5005): address already in use
+2019-11-17 00:48:42,634 [INFO ]  Server initialized for sanic.
+2019-11-17 00:48:42,636 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-17 00:48:46,192 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-17 00:49:47,795 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 461, in receive
+    sender_id = await self._extract_sender(request)
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 411, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2019-11-17 00:49:49,046 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 461, in receive
+    sender_id = await self._extract_sender(request)
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 411, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2019-11-17 00:49:50,352 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 461, in receive
+    sender_id = await self._extract_sender(request)
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 411, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+2019-11-17 00:49:51,470 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "/home/gautierk/.local/lib/python3.7/site-packages/sanic/app.py", line 942, in handle_request
+    response = await response
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 461, in receive
+    sender_id = await self._extract_sender(request)
+  File "/home/gautierk/.local/lib/python3.7/site-packages/rasa/core/channels/channel.py", line 411, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
